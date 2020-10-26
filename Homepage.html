@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<style>
+    .Top-List{
+        list-style-type: none;
+        color: black;
+        font-family: sans-serif;
+        overflow: hidden;
+        margin: -6px;
+        padding: 8px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: block;
+        padding: 12px;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: #787777;
+    }
+    .logo {
+        margin-top: -15px;
+        padding: 0px;
+        width: 48px;
+        border-radius: 1px;
+    }
+    .tiles-logo{
+        margin-top: -2px;
+        padding: 0px;
+        width: 18px;
+        height: 18px;
+        border-radius: 1px;
+    }
+    #Google-Logo {
+        display: block;
+        margin-left: 43%;
+        margin-top: 7%;
+    }
+    #bar {
+        display: block;
+        width: 575px;
+        border-radius: 30px;
+        border: 1px solid #DAD9D8;
+        margin-left: 35%;
+        margin-top: 1%;
+    }
+    #bar:hover {
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    #bar:focus-within {
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+        outline: none;
+    }
+    .searchbar {
+        border: none;
+        font-size: 16px;
+        width: 500px;
+        margin-left: 6%;
+        height: 40px;
+        outline: none;
+    }
+    .Glass {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        margin-top: -1.6%;
+        margin-left: 35.4%;
+    }
+    .button1 {
+        background-color: #F0F0F0;
+        height: 35px;
+        width: 125px;
+        border-radius: 5px;
+        border: 2px solid  #F0F0F0;
+        text-align: center;
+        font-size: 12px;
+        color: #868686;
+        float: left;
+        margin-top: 1.5%;
+        margin-left: 43%;
+        margin-right: 1%;
+    }
+    .button1:hover {
+        border: 1px solid #c6c6c6;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        color: #000;
+    }
+    .button2 {
+        background-color: #F0F0F0;
+        height: 35px;
+        width: 125px;
+        border-radius: 5px;
+        border: 2px solid  #F0F0F0;
+        text-align: center;
+        font-size: 12px;
+        color: #868686;
+        float: left;
+        margin-top: 1.5%;
+    }
+    .button2:hover {
+        border: 1px solid #c6c6c6;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        color: #000;
+    }
+    #Offered-In {
+        margin-top: 85px;
+        margin-left: 770px;
+    }
+    .text-link {
+        font-size: 14px;
+        color: black;
+    }
+    .Latino {
+        color: blue;
+    }
+    .Latino:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+    .Bottom-List-Right {
+        width: 100%;
+        background-color:#F0F0F0;
+        list-style-type: none;
+        font-family: sans-serif;
+        overflow: hidden;
+        margin-top: 0px;
+        padding: 7px;
+        font-size: 14px;
+        font-weight: 500;
+        height: 30px;
+    }
+    .left-margin {
+        float: left;
+        margin-left: 10px;
+    }
+    .left-margin1 {
+        float: left;
+    }
+    .First-Bottom-List {
+        width: 100%;
+        background-color: #F0F0F0;
+        border-style: solid;
+        border-width: thin;
+        border-color: #D3D3D3;
+        list-style-type: none;
+        font-family: sans-serif;
+        overflow: hidden;
+        margin-bottom: 5px;
+        padding: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        height: 30px;
+    }
+    #footer {
+        position: absolute;
+        bottom: -12.5px;
+        width: 100%;
+    }
+    #footer1 {
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+    }
+    .link-colors {
+        color: #868686;
+    }
+</style>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Google Homemade </title>
+    </head>
+
+    <header>
+        <nav>
+            <ul class="Top-List">
+                <li><a href="#" id="Sign-In-Button"> <img class="logo" src='https://developers.google.com/identity/images/g-logo.png'></a></li>
+                <li><a href="#"><img class="tiles-logo" src="/Users/rafaelcruz/Downloads/the_odin_project/google-homepage/images/Google Apps Tiles.png"></a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Gmail</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div>
+            <div id="Google-Logo">
+                <img src="/Users/rafaelcruz/Downloads/the_odin_project/google-homepage/images/googlelogo_color_272x92dp.png" alt="Google logo">
+            </div>
+            <div id="bar">
+                <input class="searchbar" type="text">
+            </div>
+            <div>
+                <img class="Glass" src="/Users/rafaelcruz/Downloads/the_odin_project/google-homepage/images/Google Magnifying Glass.png" alt="Magnifying Glass">
+            </div>
+            <div id="Search-Button">
+                <button type="submit" class="button1">Google Search</button>
+            </div>
+            <div id="Lucky-Button">
+                <button type="submit" name="btnl" value="1" class="button2">I'm Feeling Lucky</button>
+            </div>
+            <div id="Offered-In">
+                <p class="text-link">Offered in: <a class="Latino" href="#">Español (Latinoamérica)</a></p>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <div id="footer1">
+            <nav>
+                <ul class="First-Bottom-List">
+                    <li class="left-margin"><a class="link-colors" href="#">Puerto Rico</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="footer">
+            <nav>
+                <ul class="Bottom-List-Right">
+                    <li><a class="link-colors" href="#">Settings</a></li>
+                    <li><a class="link-colors" href="#">Terms</a></li>
+                    <li><a class="link-colors" href="#">Privacy</a></li>
+                    <li class="left-margin"><a class="link-colors" href="#">Advertising</a></li>
+                    <li class="left-margin1"><a class="link-colors" href="#">Business</a></li>
+                    <li class="left-margin1"><a class="link-colors" href="#">About</a></li>
+                    <li class="left-margin1"><a class="link-colors" href="#">How Search works</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</html>
